@@ -46,7 +46,7 @@ const CONFIG = new AuthServiceConfig([
     id: LinkedinLoginProvider.PROVIDER_ID,
     provider: new LinkedinLoginProvider('LINKEDIN_CLIENT_ID')
   }
-]);
+],false);
 
 export function provideConfig() {
   return CONFIG;
